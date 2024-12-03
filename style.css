@@ -16,6 +16,8 @@
 
 .aside{
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .aside > img:first-child{
@@ -34,6 +36,21 @@
     background-color: rgba(0, 0, 0, 0.6);
     width: 30vw;
     height: 18vh;
+}
+a{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+.sidebar-footer{
+    width: 100%;
+    position: absolute;
+    color: white;
+    text-align: center;
+    bottom: 3vh;
 }
 
 #logo > img{
